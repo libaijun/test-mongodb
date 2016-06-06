@@ -11,6 +11,13 @@ import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 
+/**
+ * 测试例子
+ * 
+ * @author lbj
+ *
+ * 2016-6-6上午8:47:22
+ */
 public class MClient {
 	public static void main(String[] args) {
 		MongoClient client = new MongoClient("192.168.233.8", 27017);
